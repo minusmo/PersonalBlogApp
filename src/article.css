@@ -1,0 +1,24 @@
+.hero {
+  border-bottom: 5px solid black;
+}
+
+.container {
+  -webkit-box-shadow: 6px 7px 5px -4px rgba(207, 207, 207, 1);
+  -moz-box-shadow: 6px 7px 5px -4px rgba(207, 207, 207, 1);
+  box-shadow: 6px 7px 5px -4px rgba(207, 207, 207, 1);
+  display: flex;
+  height: 55vh;
+  align-items: center;
+}
+
+.is-ancestor {
+  height: 50vh;
+}
+
+.is-child {
+  overflow: auto;
+}
+
+.thumbnail {
+  max-height: 100%;
+}

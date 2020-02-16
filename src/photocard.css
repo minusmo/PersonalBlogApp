@@ -1,0 +1,7 @@
+.media {
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  -webkit-box-shadow: 0px 6px 2px -1px rgba(199, 195, 199, 1);
+  -moz-box-shadow: 0px 6px 2px -1px rgba(199, 195, 199, 1);
+  box-shadow: 0px 6px 2px -1px rgba(199, 195, 199, 1);
+}
