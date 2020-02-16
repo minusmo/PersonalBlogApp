@@ -8,18 +8,26 @@ import "./App.css";
 class BlogApp extends Component {
   render() {
     return (
+      // <Router>
+      //   {/* <nav>
+      //     <Link to="/">MyPortfolio</Link>
+      //     <Link to="/blogposts">blogposts</Link>
+      //   </nav> */}
+      //   <Navbar />
+      //   <Switch>
+      //     <Route exact path="/">
+      //       <MyPortfolio />
+      //     </Route>
+      //     {/* <Route exact path="/blogposts">
+      //       <Blogposts />
+      //     </Route> */}
+      //   </Switch>
+      // </Router>
       <Router>
-        {/* <nav>
-          <Link to="/">MyPortfolio</Link>
-          <Link to="/blogposts">blogposts</Link>
-        </nav> */}
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <MyPortfolio />
-          </Route>
-          <Route exact path="/blogposts">
-            <Blogposts />
           </Route>
         </Switch>
       </Router>

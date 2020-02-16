@@ -22,7 +22,7 @@ class portfolio extends Component {
       <div className="portContainer">
         <Photocard />
         <Article
-          imgsrc={"/ghiblithumbnail.jpg"}
+          imgsrc={"ghiblithumbnail.jpg"}
           color={"white"}
           title={title1}
           subtitle={subtitle1}
@@ -53,7 +53,7 @@ class portfolio extends Component {
           </div>
         </Article>
         <Article
-          imgsrc={"/knierproject.jpg"}
+          imgsrc={"knierproject.jpg"}
           color={"white"}
           title={title2}
           subtitle={subtitle2}
@@ -80,7 +80,7 @@ class portfolio extends Component {
           </div>
         </Article>
         <Article
-          imgsrc={"/musicapp.jpg"}
+          imgsrc={"musicapp.jpg"}
           color={"white"}
           title={title3}
           subtitle={subtitle3}

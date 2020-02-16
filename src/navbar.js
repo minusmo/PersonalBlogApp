@@ -19,7 +19,7 @@ class Navbar extends React.Component {
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <span id="logo" className="navbar-item">
-            <img id="logoimg" src="/logo_transparent.png" />
+            <img id="logoimg" src="logo_transparent.png" />
           </span>
 
           <a

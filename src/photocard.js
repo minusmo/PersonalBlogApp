@@ -8,7 +8,7 @@ class photocard extends React.Component {
       <article class="media">
         <figure class="media-left">
           <p class="image is-128x128">
-            <img className="is-rounded" src="/atyosemite.jpg" />
+            <img className="is-rounded" src="atyosemite.jpg" />
           </p>
         </figure>
         <div class="media-content">
